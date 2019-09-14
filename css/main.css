@@ -471,7 +471,7 @@ td:last-child {
 }
 
 .pace .pace-progress {
-  background: #f9a828;
+  background: #2793b4;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -510,7 +510,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #f9a828;
+  background-color: #2793b4;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -2507,7 +2507,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: #111111;
+  background-color: #e6e6e6;
   background-image: url(../images/contact-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -2523,17 +2523,23 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .75;
-  background-color: #000000;
+  background-color: #e6e6e6;
 }
 #contact .section-intro h1 {
-  color: white;
+  color: black;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: rgb(68, 68, 68);
 }
 #contact .section-intro p.lead {
   color: rgba(242, 242, 242, 0.4);
+}
+
+#contact img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .contact-content {
@@ -2668,7 +2674,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #message-success {
-  color: #f9a828;
+  color: #2793b4;
 }
 
 #message-warning i,
